@@ -1,6 +1,5 @@
+import { ILog } from 'lite-ts-log';
 import log4js from 'log4js';
-
-import { ILog } from './i-log';
 
 export class Log4jsLog implements ILog {
     /**
